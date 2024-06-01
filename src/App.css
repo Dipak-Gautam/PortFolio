@@ -1,0 +1,177 @@
+.project {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: auto;
+  width: 15rem;
+}
+.navbar-collapse {
+  margin-left: 60%;
+}
+.navbar-brand {
+  margin-left: 5%;
+}
+.active {
+  color: red !important;
+}
+/* .expdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+.expcontent {
+  border: 3px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 67%;
+  padding: 15px;
+  align-items: center;
+} */
+/* .smallpara {
+  margin-bottom: -6px;
+  font-size: 12px;
+} */
+
+.expheading {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* .explist {
+  list-style: none;
+  /* border: 2px solid black;
+  border-radius: 10px; */
+/* width: 65rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 25px auto;
+  padding: 8px;
+}
+.liinside {
+  font-size: 17px;
+  font-weight: bold;
+  display: flex;
+}
+.lipara {
+  margin-bottom: 0;
+}
+.subpara {
+  margin-bottom: -6px;
+  font-size: 12px;
+  margin-left: 15px;
+} */
+/* .cantactme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 65rem;
+  margin: 5px auto;
+  padding: 2rem;
+} */
+.liinside {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 3px;
+}
+
+.contactli {
+  list-style: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 45rem;
+  margin: 1.5rem 0px;
+  padding: 5px;
+}
+
+.colorfb {
+  color: blue;
+  margin-right: 9px;
+}
+
+.colormail {
+  color: red;
+  margin-right: 9px;
+}
+.phonecolor {
+  color: green;
+  margin-right: 9px;
+}
+.colorwave {
+  color: orange;
+}
+/* .ul {
+  margin-bottom: 0rem;
+} */
+.contact2 {
+  margin: auto;
+}
+.contactlist {
+  border-radius: 20px;
+  margin: 10px 0px;
+  border: 2px solid black;
+}
+
+.iconclass {
+  font-size: 5rem;
+  margin-top: 0px !important;
+}
+.iconspan {
+  font-size: 2rem;
+}
+@media (max-width: 950px) {
+  .iconclass {
+    font-size: 2rem;
+  }
+  .iconspan {
+    font-size: 0.7rem;
+  }
+  .liinside {
+    font-size: 0.7rem;
+  }
+}
+
+.logos {
+  margin: 10px;
+}
+.aboutpara {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: blue;
+}
+.herocontact {
+  margin: 5px 20px;
+  color: #a09999;
+  display: inline-block;
+}
+.hrdivison {
+  margin: auto;
+  width: 70%;
+  margin-bottom: 15px;
+}
+@media (max-width: 900px) {
+  .hrdivison {
+    width: 100%;
+  }
+  .herocontact {
+    display: block;
+  }
+}
+.footer {
+  background-color: #f8f9fa;
+}
+.carouseldiv {
+  display: flex;
+  align-items: center;
+}
+.seperation {
+  background-color: #ebedf3;
+  height: 8px;
+  margin-bottom: 10px;
+}
