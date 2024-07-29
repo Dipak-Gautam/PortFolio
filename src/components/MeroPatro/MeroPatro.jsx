@@ -1,4 +1,5 @@
 import React from "react";
+import vedio1 from "../../vedios/meropatrovid.mp4";
 
 const MeroPatro = () => {
   return (
@@ -21,7 +22,13 @@ const MeroPatro = () => {
             <img src="meropatro/DownloadGP.png" alt="" className="w-48" />
           </div>
         </div>
-        <div></div>
+        <div>
+          <div className=" ml-[50%]  h-full">
+            <video width="350" height="600" autoPlay muted>
+              <source src={vedio1} type="video/mp4" />
+            </video>
+          </div>
+        </div>
       </div>
       <hr className="hrdivison" />
     </>
