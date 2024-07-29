@@ -9,12 +9,15 @@ import { FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
 import { GrMailOption } from "react-icons/gr";
+import { SiExpress } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+import { FaNode } from "react-icons/fa";
 
 const HeroImage = () => {
   return (
-    <div className="container col-xxl-8 px-4 " style={{ width: "75%" }}>
+    <div className="container col-xxl-8 px-4 " style={{ width: "85%" }}>
       <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div className="col-10 col-sm-8 col-lg-6 a">
+        <div className="col-10 col-sm-8 col-lg-6 ">
           <img
             src="images/profilecopy.jpg"
             className="d-block mx-lg-auto img-fluid"
@@ -59,7 +62,7 @@ const HeroImage = () => {
             </button>
           </div>
         </div>
-        <div className="iconclass">
+        <div className="iconclass flex">
           <span className="iconspan">Tech Stack :</span>
           <FaHtml5 className="logos" style={{ color: "red" }} />
           <FaCss3Alt className="logos" style={{ color: "blue" }} />
@@ -69,6 +72,9 @@ const HeroImage = () => {
           />
           <FaReact className="logos" style={{ color: "cyan" }} />
           <SiTailwindcss className="logos" style={{ color: "blue" }} />
+          <SiExpress className="logos " />
+          <SiMongodb className="logos " style={{ color: "green" }} />
+          <FaNode className="logos " style={{ color: "green" }} />
         </div>
       </div>
     </div>

@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .project {
   font-size: 3rem;
   font-weight: 700;

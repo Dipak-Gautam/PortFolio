@@ -21,12 +21,14 @@ const AboutMe = () => {
             <p className="lead" style={{ fontSize: "18px" }}>
               As a Front-End Developer. I posses an impressive arsenal of skills
               in HTML, CSS, Java-Script, React, TailWind and React Native. I
-              excel in designing and maintaining responsive websites that offer
-              a smooth user experience. My experties lies in crafting dynamic,
-              engaging interfaces through writing clean and optimized code and
-              utililizing cutting-edge development tools and techniques. I am
-              also a team player who thrives in collabrating with
-              cross-functional teams to produce outstanding web applications.
+              have excellent knowlege in backend also which include Express,
+              NodeJs and MongoDB. I excel in designing and maintaining
+              responsive websites that offer a smooth user experience. My
+              experties lies in crafting dynamic, engaging interfaces through
+              writing clean and optimized code and utililizing cutting-edge
+              development tools and techniques. I am also a team player who
+              thrives in collabrating with cross-functional teams to produce
+              outstanding web applications.
             </p>
           </div>
           <div className="col-10 col-sm-8 col-lg-6">
