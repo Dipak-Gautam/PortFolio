@@ -16,7 +16,10 @@ const AboutMe = () => {
               style={{ fontSize: "2rem" }}
             >
               A dedicated Front-End Developer based in pokhara, Nepal.
-              <FaLocationDot style={{ color: "red" }} />
+              <FaLocationDot
+                style={{ color: "red" }}
+                className="inline-block"
+              />
             </h1>
             <p className="lead" style={{ fontSize: "18px" }}>
               As a Front-End Developer. I posses an impressive arsenal of skills

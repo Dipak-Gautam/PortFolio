@@ -28,14 +28,15 @@ const HeroImage = () => {
             style={{ margin: "auto", borderRadius: "160px" }}
           />
         </div>
-        <div className="col-lg-6">
-          <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+        <div className="col-lg-6 ">
+          <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3  ">
             Front-End React Developer
-            <PiHandWavingDuotone className="colorwave" />
+            <PiHandWavingDuotone className=" inline-block text-orange-400" />
           </h1>
           <p className="lead">
             Hi, I'm Dipak Gautam. A passionate Front-End React Developer based
-            in pokhara, Nepal. <FaLocationDot style={{ color: "red" }} />
+            in pokhara, Nepal.{" "}
+            <FaLocationDot style={{ color: "red" }} className="inline-block" />
           </p>
           <span className="herocontact">
             <MdOutlinePhoneInTalk
@@ -57,13 +58,13 @@ const HeroImage = () => {
               className="btn btn-light btn-lg px-4 me-md-2 "
             >
               <a href="https://github.com/Dipak-Gautam" target="/blank">
-                <FaGithub style={{ color: "black" }} />
+                <FaGithub style={{ color: "black" }} className="inline-block" />
               </a>
             </button>
           </div>
         </div>
         <div className="iconclass flex">
-          <span className="iconspan">Tech Stack :</span>
+          <span className="iconspan my-auto">Tech Stack :</span>
           <FaHtml5 className="logos" style={{ color: "red" }} />
           <FaCss3Alt className="logos" style={{ color: "blue" }} />
           <BiLogoJavascript
