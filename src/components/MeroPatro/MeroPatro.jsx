@@ -32,7 +32,7 @@ function MyVerticallyCenteredModal(props) {
       <Modal.Footer>
         <div className="w-full flex justify-center ">
           <a
-            href="https://drive.google.com/file/d/1iD7BSA0LF3xc8oMVIeu_-pt33MRBK9ln/view?usp=drivesdk"
+            href="https://drive.google.com/drive/folders/19alLc8Lq0CWnUFSqCT_OKSlzLG0JPvHB?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >
