@@ -69,7 +69,7 @@ const MeroPatro = () => {
           <div className="text-3xl md:text-4xl font-bold my-2 mx-3  text-black">
             MeroPatro ( React Native)
           </div>
-          <div className="text-justify font-thin text-xl w-[95%] mx-auto">
+          <div className="text-justify  text-xl w-[95%] mx-auto lead">
             Mero-Patro is a mobile aplication desidned to be used in both
             android and ios. It is developed using React Native and oppers a
             features like 100 years+ of dates , Date conversion From BS to Ad

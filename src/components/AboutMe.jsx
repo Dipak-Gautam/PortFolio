@@ -15,7 +15,7 @@ const AboutMe = () => {
               className="display-5 fw-bold text-body-emphasis lh-1 mb-3"
               style={{ fontSize: "2rem" }}
             >
-              A dedicated Front-End Developer based in pokhara, Nepal.
+              A dedicated Front-End Developer based in kathmandu, Nepal.
               <FaLocationDot
                 style={{ color: "red" }}
                 className="inline-block"

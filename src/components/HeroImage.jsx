@@ -35,7 +35,7 @@ const HeroImage = () => {
           </h1>
           <p className="lead">
             Hi, I'm Dipak Gautam. A passionate Front-End React Developer based
-            in pokhara, Nepal.{" "}
+            in kathmandu, Nepal.{" "}
             <FaLocationDot style={{ color: "red" }} className="inline-block" />
           </p>
           <span className="herocontact">
