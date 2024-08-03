@@ -38,20 +38,20 @@ const HeroImage = () => {
             in kathmandu, Nepal.{" "}
             <FaLocationDot style={{ color: "red" }} className="inline-block" />
           </p>
-          <span className="herocontact">
+          <div className=" flex space-x-2">
             <MdOutlinePhoneInTalk
               className="phonecolor"
               style={{ marginRight: "-1px" }}
             />
-            +977-9814132234
-          </span>
-          <span className="herocontact">
+            <p>+977-9814132234</p>
+          </div>
+          <div className="flex space-x-2">
             <GrMailOption
               className="colormail"
               style={{ marginRight: "6px" }}
             />
-            anjangautam095@gmail.com
-          </span>
+            <p>anjangautam095@gmail.com</p>
+          </div>
           <div className="d-grid gap-2 d-md-flex justify-content-md-start">
             <button
               type="button"

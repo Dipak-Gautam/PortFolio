@@ -17,8 +17,9 @@ const NewNavbar = ({ handleMode }) => {
             width="35px"
             height="35px"
             style={{ marginRight: "5px", borderRadius: "17px" }}
+            className="inline-block"
           />
-          Dipak Gautam
+          <p className="inline-block">Dipak Gautam</p>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
