@@ -3,7 +3,7 @@ import { FaFacebook, FaGithub } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top footer">
+    <div className="md-flex flex-column flex-sm-row justify-content-between py-4 mt-4 border-top footer px-20">
       <p className="footerpara">
         © 2024 Dipak-Gautam, Inc. All rights reserved.
       </p>

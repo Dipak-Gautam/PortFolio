@@ -1,7 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Carousel from "react-bootstrap/Carousel";
+import axios from "axios";
 
 const ProjectsNegative = () => {
+  const fetchData = async () => {
+    try {
+      const apiUrl = "https://api-beta.hotelhoni.com/auth/register";
+      const requestBody = {
+        name: "Dinesh",
+      };
+      const response = await axios.post(apiUrl, requestBody);
+      console.log("API Response:", response.message);
+    } catch (error) {}
+  };
+
+  const runEveryFiveMinutes = () => {
+    fetchData();
+  };
+  setInterval(runEveryFiveMinutes, 600000);
+  useEffect(() => {
+    fetchData;
+  }, []);
+
   return (
     <>
       <div className="projecthead ">
