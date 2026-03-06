@@ -5,7 +5,7 @@ import { MdOutlinePhoneInTalk } from "react-icons/md";
 
 const Contactme2 = () => {
   return (
-    <div className="list-group container col-xxl-8 px-4">
+    <div className="list-group  col-xxl-8 px-4">
       <h2 className="expheading">Contact Me</h2>
       <a
         href="https://www.facebook.com/boma.colo"

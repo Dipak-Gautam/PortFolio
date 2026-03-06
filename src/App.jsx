@@ -14,13 +14,13 @@ function App() {
     setDisplayHome(mode);
   };
   return (
-    <>
+    <div>
       <NewNavbar handleMode={handleMode} />
       {displayHome === "home" && <Home />}
       {displayHome === "project" && <MainProjects />}
       {displayHome === "about" && <About />}
       <Footer />
-    </>
+    </div>
   );
 }
 
